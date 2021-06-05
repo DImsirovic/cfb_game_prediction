@@ -13,4 +13,4 @@ This project is divided into 4 parts:
 3. Model Building, Evaluation, and Optimization
 4. Deployment
 
-You can find the final streamlit product [here](www.github.com/DImsirovic) :smiley:
+You can find the final streamlit product [here](https://github.com/DImsirovic/cfb_game_prediction) :smiley:
