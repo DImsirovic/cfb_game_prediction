@@ -8,7 +8,7 @@ I've collected and cleaned data from the API at [collegefootballdata.com](https:
 
 ## Overview
 This project is divided into 4 parts:
-1. Data Collection and Cleaning
+1. [Data Collection and Cleaning](https://github.com/DImsirovic/cfb_game_prediction/data_collection.md)
 2. Exploratory Data Analysis
 3. Model Building, Evaluation, and Optimization
 4. Deployment
