@@ -4,7 +4,7 @@
 
 ## It's an age-old debate: "Your team beat us this year but if it was _*other year*_, you know we'd win, right? This project seeks to end that debate.
 
-I've collected and cleaned data from the API at [collegefootballdata.com](https://www.collegefootballdata.com/) to train a classification model predicting the winner of a college football game given average season statistics from the CFP era (2015 and after). The model is then deployed to Streamlit so users can select any 2 teams from the time period and prove that their team in year X would *actually* beat their friend's team in year Y.
+I've collected and cleaned data from the API at [collegefootballdata.com](https://www.collegefootballdata.com/) to train a classification model predicting the winner of a college football game given average season statistics since 2015. The model is then deployed to Streamlit so users can select any 2 teams from the time period and prove that their team in year X would *actually* beat their friend's team in year Y.
 
 ## Overview
 This project is divided into 4 parts:
