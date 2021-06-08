@@ -8,8 +8,8 @@ I've collected and cleaned data from the API at [collegefootballdata.com](https:
 
 ## Overview
 This project is divided into 3 parts:
-1. [Data Collection and Cleaning](https://github.com/DImsirovic/cfb_game_prediction/blob/main/data_collection.md)
-2. [Model Building, Evaluation, and Optimization](https://github.com/DImsirovic/cfb_game_prediction/blob/main/modeling.md)
+1. [Data Collection and Cleaning](https://github.com/DImsirovic/cfb_game_prediction/blob/main/data_collection/data_collection.md)
+2. [Model Building, Evaluation, and Optimization](https://github.com/DImsirovic/cfb_game_prediction/blob/main/modeling/modeling.md)
 3. Deployment
 
 You can find the final streamlit product [here](https://github.com/DImsirovic/cfb_game_prediction) :smiley:
