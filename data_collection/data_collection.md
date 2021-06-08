@@ -42,4 +42,4 @@ LEFT JOIN season_stats ON
     production.season= season_stats.season AND production.team=season_stats.team;
 ```
 
-The returned results can subsequently be exported to a `csv` file for easy read-in with Pandas. Now that we have cleaned files on game results and annual team statistics, the [modeling process can begin.](https://github.com/DImsirovic/cfb_game_prediction/blob/main/modeling.md)
+The returned results can subsequently be exported to a `csv` file for easy read-in with Pandas. Now that we have cleaned files on game results and annual team statistics, the [modeling process can begin.](https://github.com/DImsirovic/cfb_game_prediction/blob/main/modeling/modeling.md)
