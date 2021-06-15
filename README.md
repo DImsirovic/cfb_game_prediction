@@ -9,7 +9,7 @@ I've collected and cleaned data from the API at [collegefootballdata.com](https:
 ## Overview
 This project is divided into 4 parts:
 1. [Data Collection and Cleaning](https://github.com/DImsirovic/cfb_game_prediction/blob/main/data_collection/data_collection.md)
-2. [Data Visualization and Exploration](https://github.com/DImsirovic/cfb_game_prediction/blob/main/data_collection/data_collection.m)
+2. [Data Visualization and Exploration](https://github.com/DImsirovic/cfb_game_prediction/blob/main/eda/exploration.md)
 3. [Model Building, Evaluation, and Optimization](https://github.com/DImsirovic/cfb_game_prediction/blob/main/modeling/modeling.md)
 4. Deployment (***TODO***)
 
