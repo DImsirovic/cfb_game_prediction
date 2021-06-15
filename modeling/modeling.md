@@ -12,7 +12,7 @@ The `conference` columns were temporarily dropped for ease of modeling with simp
 
 ### Feature Selection
 To reduce our dimensions from approximately 70 to 15, `sklearn`'s `selectKBest` functionality was used during cross-validation. This was done in accordance to Tibshirani's discussion of ***The Right and Wrong way to do Cross-Validation*** in Chapter 7.10.2 of *Elements of Statistical Learning*. Details can be found in the source code.
-(Feature selection graph)
+
 ![](/images/feature_selection.png)
 
 
