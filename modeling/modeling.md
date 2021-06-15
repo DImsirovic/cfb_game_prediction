@@ -5,19 +5,24 @@ The modeling process took on several steps:
 * Model Building and Test Error Estimation
 * Model Evaluation
 
-TODO: Fix blank graphs and increase size
-
 ### Preprocessing
 The `conference` columns were temporarily dropped for ease of modeling with simply numerical features. These can be added again after using Label Encoding or One Hot Encoding, if the curse of dimensionality does not befall us after doing so. These processes are iterative so our model could certainly be improved if we add it! :smiley: The `winner` column was then One-Hot encoded and the `away_winner` column dropped to produce our target variable.
 
 ### Feature Selection
-To reduce our dimensions from approximately 70 to 15, `sklearn`'s `selectKBest` functionality was used during cross-validation. This was done in accordance to Tibshirani's discussion of ***The Right and Wrong way to do Cross-Validation*** in Chapter 7.10.2 of *Elements of Statistical Learning*. Details can be found in the source code.
+To reduce our dimensions from approximately 70 to 15, `sklearn`'s `selectKBest` functionality was used during cross-validation. This was done in accordance to Tibshirani's discussion of ***The Right and Wrong way to do Cross-Validation*** in Chapter 7.10.2 of *Elements of Statistical Learning*:
+1. Randomly divide the training data into K (10) cross-validation folds
+2. For each fold *k = 1, 2, ..., K*:
+    * Use SelectKBest to calculate the 15 highest ANOVA scores among the predictors
+    * Record which variables appear among the top 15
+3. Tally the 15 features with the highest occurences 
+
+The following graph showcases the features that occured the most often in the top 15 of 10 iterations of KFold Cross Validation:
 
 ![](/images/feature_selection.png)
 
 
 ### Model Building and Selection
-3 multivariate classifiers were trained and compared via ROC AUC scores: 
+3 multivariate classifiers were fit on training data and compared via ROC AUC scores in KFold cross-validation: 
 * Random Forest
 * Logistic Regression
 * K Nearest Neighbors
