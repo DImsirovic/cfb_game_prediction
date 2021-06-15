@@ -36,4 +36,5 @@ The Logistic Regression model performed the best, with an AUC score of approxima
 
 ## Model Evaluation
 We can see from the plot below that on our test data, the model has an AUC of approximately 0.84, which is better than our estimate of prediction error from cross-validation. This is an interesting phenomenon that I will certainly look into and read about. It's possible that our training data was simply 'harder' than our test data and the model has a good fit.
+
 ![](/images/roc_auc_TEST.png)
